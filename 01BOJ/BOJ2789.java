@@ -8,6 +8,8 @@ public class BOJ2789 {
             for(int j = i+1; j<card.length-1; j++){
                 for(int k = j+1; k<card.length; k++){
                     int temp = card[i] + card[j] + card[k];
+                    if(m == temp)
+                        return temp;
                     if(m - temp >=0 && m-temp < m-result){
                         result = temp;
                     }
