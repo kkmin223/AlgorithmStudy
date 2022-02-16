@@ -10,7 +10,6 @@ class Solution {
                 n /= 10;
             }
             n = sum;
-            System.out.println(n);
             if(n==1) return true;
         }
         return false;
