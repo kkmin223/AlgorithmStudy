@@ -16,7 +16,6 @@ class Solution {
             st.push(temp.val);
             temp = temp.next;
         }
-        System.out.println(st.size());
         int size = st.size();
         while(st.size() > size/2){
             int cur = st.pop();
