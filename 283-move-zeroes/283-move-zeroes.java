@@ -27,6 +27,7 @@ class Solution {
                 cnt++;
             }
         }
+        // cnt 인덱스부터 0으로 메꿔준다.
         for(int i = cnt; i<nums.length; i++){
             nums[i] = 0;
         }
