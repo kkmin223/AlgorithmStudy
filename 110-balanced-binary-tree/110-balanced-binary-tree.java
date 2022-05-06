@@ -16,15 +16,15 @@
 class Solution {
     boolean answer = true;
     public boolean isBalanced(TreeNode root) {
-        getHeight(root);
+        checkBalanced(root);
         return answer;
     }
-    public int getHeight(TreeNode node){
+    public int checkBalanced(TreeNode node){
         if(node == null){
             return 0;
         }
-        int left = getHeight(node.left);
-        int right = getHeight(node.right);
+        int left = checkBalanced(node.left);
+        int right = checkBalanced(node.right);
         if(Math.abs(left - right) > 1){
             answer = false;
         }
