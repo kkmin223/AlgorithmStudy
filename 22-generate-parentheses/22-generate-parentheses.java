@@ -12,8 +12,8 @@ class Solution {
             if(checkParentheses(parenthes)) answer.add(parenthes);
             return;
         }
-        makeParentheses(parenthes+"(", open-1, close, length);
-        makeParentheses(parenthes+")", open, close-1, length);
+        if(open > 0) makeParentheses(parenthes+"(", open-1, close, length);
+        if(close > 0) makeParentheses(parenthes+")", open, close-1, length);
     }
     public boolean checkParentheses(String parenthes){
         Stack<Character> st = new Stack<>();
