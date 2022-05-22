@@ -19,7 +19,7 @@ class Edge implements Comparable<Edge> {
         return cost - o.cost;
     }
 }
-public class BOJ1197 {
+public class BOJ1197_kruskal {
     static int V;
     static int E;
     static Edge[] pq;
