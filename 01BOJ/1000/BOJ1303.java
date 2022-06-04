@@ -37,6 +37,7 @@ public class BOJ1303 {
                 bfs(new Node(i, j));
             }
         }
+
         System.out.print(W + " " + B);
     }
 
