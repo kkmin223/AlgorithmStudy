@@ -8,9 +8,9 @@ public class BOJ14226 {
     static int target;
     static boolean[][] isVisited = new boolean[5000][5000]; // [화면에 있는 이모티콘 수][클립보드에 있는 이모티콘 수]
     static class Emoticon {
-        int countOnScreen;
-        int countOnClipboard;
-        int time;
+        int countOnScreen; // 화면에 있는 이모티콘 개수
+        int countOnClipboard; // 클립보드에 있는 이모티콘 개수
+        int time; // 시간
 
         public Emoticon(int countOnScreen, int countOnClipboard, int time) {
             this.countOnScreen = countOnScreen;
