@@ -4,11 +4,7 @@
 - 공부 정리 블로그: https://kkmdailylog.tistory.com
 - 최소 하루 1문제 풀기!
 
-## 개인 공부 계획
-- ~~프로그래머스 1단계 (완료!)~~
-- 프로그래머스 2단계
-- 프로그래머스 3단계
+## 공부 계획
+- 일주일에 3문제 이상 풀기
 
-## 그룹 스터디
-- ~~LeetCode Top Interview Questions - Easy (완료!)~~
-- LeetCode Top Interview Questions - Medium 1문제 & Easy 2문제(진행중)
+
